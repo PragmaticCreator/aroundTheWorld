@@ -11,7 +11,7 @@ const App = () => {
     <div className='flex flex-col min-h-screen bg-base-light dark:bg-base-dark dark:text-base-content-dark text-base-content-light text-base'>
       <BrowserRouter>
         <Navbar />
-        <motion.div
+        <motion.header
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.5 }}
@@ -21,7 +21,7 @@ const App = () => {
           <Dropdown
             items={['Africa', 'Americas', 'Asia', 'Europe', 'Oceania']}
           />
-        </motion.div>
+        </motion.header>
         <main className='flex-grow'>
           <Routes>
             <Route path='/' element={<Home input={input} />} />
