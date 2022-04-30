@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://github.com/PragmaticCreator/time-tracker)
-- Live Site URL: [Site](https://timetrackerpa.netlify.app/)
+- Solution URL: [Github](https://github.com/PragmaticCreator/aroundTheWorld)
+- Live Site URL: [Site](https://atwpa.netlify.app/)
 
 ## My process
 
